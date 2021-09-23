@@ -30,7 +30,7 @@ console.log("Welcome "+ userName+" to DO YOU KNOW Taufiq!!! \n");
 function play(questionObject){
   var userAnswer = readlineSync.question(questionObject.question);
 
-  if(userAnswer.toUpperCase === questionObject.answer.toUpperCase){
+  if(userAnswer.toUpperCase() === questionObject.answer.toUpperCase()){
     console.log("You're right!!");
     score++;
   }else{
