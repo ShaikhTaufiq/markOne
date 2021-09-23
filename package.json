@@ -1,0 +1,23 @@
+{
+  "name": "markOne-1",
+  "version": "1.0.0",
+  "description": "Neog markOne",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaikhTaufiq/markOne.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShaikhTaufiq/markOne/issues"
+  },
+  "homepage": "https://github.com/ShaikhTaufiq/markOne#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
